@@ -1,0 +1,35 @@
+.btn-edit:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: ease-in 0.2s;
+}
+
+.btn-edit {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-modal:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: ease-in 0.2s;
+}
+
+.btn-modal {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+
+.btn,
+.btn:hover,
+.btn:active,
+.btn:active:focus,
+.btn:visited,
+.btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}

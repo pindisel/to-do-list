@@ -1,0 +1,11 @@
+#flexCheckDefault:hover {
+    cursor: pointer;
+}
+
+.form-check {
+    margin-left: 30%;
+}
+
+.table-head {
+    font-size: 20px;
+}

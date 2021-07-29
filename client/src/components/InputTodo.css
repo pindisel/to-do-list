@@ -1,0 +1,47 @@
+.btn-add:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: ease-in 0.2s;
+}
+
+.btn-add {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-close:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: ease-in 0.2s;
+}
+
+.btn-close {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+
+.input {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 20px;
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.btn,
+.btn:hover,
+.btn:active,
+.btn:active:focus,
+.btn:visited,
+.btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
