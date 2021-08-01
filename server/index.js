@@ -4,14 +4,6 @@ const { Pool } = require("pg");
 
 const app = express();
 const pool = new Pool({
-    user: "mmocddfklbigyg",
-    host: "ec2-54-74-35-87.eu-west-1.compute.amazonaws.com",
-    port: 5432,
-    database: "d1olh40ibqautr",
-    password: "500d30c1d2446a34bde69282c09d6d96584214f44e079dbb0bf269088893a170",
-    ssl: {
-        rejectUnauthorized: false,
-    },
     // user: "postgres",
     // host: "localhost",
     // port: 5432,
